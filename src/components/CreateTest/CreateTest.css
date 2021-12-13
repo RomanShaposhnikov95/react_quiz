@@ -1,0 +1,69 @@
+.createTest {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createContent {
+    width: 50%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.createContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.inputClass {
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+.addBtn {
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.quest {
+    width: 62%;
+    border: 2px solid black;
+}
+
+.res {
+    display: flex;
+}
+
+.trueRes {
+    font-size: 20px;
+    margin: 5px;
+}
